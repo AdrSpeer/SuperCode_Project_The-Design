@@ -317,6 +317,16 @@ input[type="submit"] {
   margin-bottom: 7rem;
 }
 
+input[type="submit"]:hover {
+  background: rgb(255, 53, 113);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 53, 113, 1) 15%,
+    rgba(219, 53, 255, 0.7399553571428572) 60%,
+    rgba(53, 91, 253, 1) 100%
+  );
+}
+
 /* ! Footer */
 
 footer {
